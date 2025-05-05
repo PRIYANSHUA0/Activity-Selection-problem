@@ -1,8 +1,6 @@
 # Activity-Selection-problem
 activity selection problem using C++ 
 
-int activitySelection(int s[], int f[], int size) {
-    vector<pair<int, int>> v;
 
     for (int i = 0; i < size; i++) {
         v.push_back({s[i], f[i]});
